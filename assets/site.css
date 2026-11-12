@@ -531,3 +531,6 @@ html[data-theme="light"] .hero .crumb a, html[data-theme="light"] .ph-photo .cru
 }
 
 .rv { position: relative; }
+
+.util .wrap > * { white-space: nowrap; }
+@media (max-width: 420px) { .util-right a[href^="sms:"] { display: none; } .util { font-size: 12.5px; } }
